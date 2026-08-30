@@ -1,158 +1,97 @@
+
+
 # 📊 NumPy Analyzer
 
-> **A simple menu-driven Python project for performing array operations
-> using NumPy and Object-Oriented Programming (OOP).**
+> ### A Simple Menu-Driven Python Project Using NumPy and Object-Oriented Programming
 
-------------------------------------------------------------------------
+---
 
 ## 📌 Project Overview
 
-**NumPy Analyzer** is a Python application that allows users to create
-and analyze NumPy arrays through a simple menu-driven interface.
+**NumPy Analyzer** is a Python-based menu-driven application developed using the **NumPy library** and **Object-Oriented Programming (OOP)** concepts.
 
-The project supports **1D, 2D, and 3D arrays** and provides different
-operations such as indexing, slicing, mathematical operations,
-searching, sorting, filtering, aggregation, and statistical analysis.
+This project allows users to create **1D, 2D, and 3D NumPy arrays** and perform different operations such as indexing, slicing, concatenation, splitting, mathematical operations, searching, sorting, filtering, aggregation, and statistical analysis.
 
-This project is developed using **Python, NumPy, and OOP concepts**.
-
-------------------------------------------------------------------------
+---
 
 # ✨ Features
 
-## 🔢 Array Management
+## 🔢 Array Creation
 
--   Create **1D Arrays**
--   Create **2D Arrays**
--   Create **3D Arrays**
--   Array Indexing
--   Array Slicing
--   Concatenate Arrays
--   Split Arrays
+- Create 1D Array
+- Create 2D Array
+- Create 3D Array
+
+---
+
+## 🔍 Array Operations
+
+- Array Indexing
+- Array Slicing
+- Concatenate Arrays
+- Split Array
+
+---
 
 ## ➕ Mathematical Operations
 
--   Addition
--   Subtraction
--   Multiplication
--   Division
--   Dot Product
--   Matrix Multiplication
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Dot Product
+- Matrix Multiplication
 
-## 🔍 Search, Sort and Filter
+---
 
--   Search for values in an array
--   Sort array in ascending order
--   Sort array in descending order
--   Filter values greater than a given value
--   Filter values less than a given value
--   Filter values equal to a given value
+## 🔎 Search, Sort and Filter
+
+- Search Value
+- Sort Array in Ascending Order
+- Sort Array in Descending Order
+- Filter Values Greater Than a Given Value
+- Filter Values Less Than a Given Value
+- Filter Values Equal To a Given Value
+
+---
 
 ## 📊 Aggregating Functions
 
--   Sum
--   Mean
--   Median
--   Standard Deviation
--   Variance
+- Sum
+- Mean
+- Median
+- Standard Deviation
+- Variance
+
+---
 
 ## 📈 Statistical Functions
 
--   Minimum Value
--   Maximum Value
--   Percentiles
--   Correlation Coefficient
+- Minimum Value
+- Maximum Value
+- 25 Percentile
+- 50 Percentile
+- 75 Percentile
+- Correlation Coefficient
 
-## 💻 OOP Concepts
+---
 
--   Class
--   Constructor
--   Encapsulation
--   Class Method
--   Static Method
+## 💻 OOP Concepts Used
 
-## 🖥️ User Interface
+- Class
+- Object
+- Constructor
+- Encapsulation
+- Class Method
+- Static Method
 
--   Menu-driven interface
--   User input based operations
--   Exit option
+---
 
-------------------------------------------------------------------------
+## 🖥️ Menu-Driven Interface
 
-# 🛠️ Technologies Used
+The project provides the following menu:
 
-  Technology   Purpose
-  ------------ -----------------------------------
-  🐍 Python    Main Programming Language
-  🔢 NumPy     Array and Mathematical Operations
-  💻 OOP       Organizing the Project
-
-------------------------------------------------------------------------
-
-# 📂 Project Structure
-
-``` text
-NumPy_Analyzer/
-│
-├── main.py
-└── README.md
-```
-
-------------------------------------------------------------------------
-
-# ⚙️ Installation
-
-## Step 1: Install Python
-
-Make sure Python is installed on your computer.
-
-Check Python version:
-
-``` bash
-python --version
-```
-
-------------------------------------------------------------------------
-
-## Step 2: Install NumPy
-
-Open Command Prompt and run:
-
-``` bash
-pip install numpy
-```
-
-If `pip` does not work, use:
-
-``` bash
-python -m pip install numpy
-```
-
-------------------------------------------------------------------------
-
-# ▶️ How to Run the Project
-
-## Step 1: Open Command Prompt
-
-Go to the project folder:
-
-``` bash
-cd D:\NumPy_Analyzer
-```
-
-## Step 2: Run the Program
-
-``` bash
-python main.py
-```
-
-The menu will appear on the screen.
-
-------------------------------------------------------------------------
-
-# 🖥️ Main Menu
-
-``` text
+```text
 ===== NumPy Analyzer =====
 
 1. Create Array
@@ -172,178 +111,215 @@ The menu will appear on the screen.
 15. Class Method
 16. Static Method
 17. Exit
-```
+🛠️ Technologies Used
+Technology	Purpose
+🐍 Python	Main Programming Language
+🔢 NumPy	Array and Mathematical Operations
+💻 OOP	Organizing the Project
+📂 Project Structure
+NumPy_Analyzer/
+│
+├── main.py
+└── README.md
+⚙️ Installation
+Step 1: Check Python
 
-------------------------------------------------------------------------
+Make sure Python is installed on your computer.
 
-# 🚀 Example Usage
+Check the Python version:
 
-## Create a 1D Array
+python --version
+Step 2: Install NumPy
 
-Select:
+Install the NumPy library using:
 
-``` text
+pip install numpy
+
+If pip does not work, use:
+
+python -m pip install numpy
+▶️ How to Run the Project
+Step 1: Open Command Prompt
+
+Go to the project folder:
+
+cd D:\NumPy_Analyzer
+Step 2: Run the Program
+python main.py
+
+The NumPy Analyzer menu will appear on the screen.
+
+🚀 Example Usage
+Create a 1D Array
+
+First select:
+
 Enter your choice: 1
-```
 
-Then select:
+Then select the array type:
 
-``` text
 1. 1D Array
 2. 2D Array
 3. 3D Array
 
 Enter your choice: 1
-```
 
-Enter values:
+Enter the values:
 
-``` text
 10 20 30 40 50
-```
 
 Output:
 
-``` text
 Array Created:
 [10 20 30 40 50]
-```
+🔢 Example Operations
+Indexing
 
-------------------------------------------------------------------------
+Select:
 
-# 🔢 Example Operations
-
-## Indexing
-
-Choose:
-
-``` text
 Enter your choice: 2
-```
 
-Enter index:
+Enter the index:
 
-``` text
 0
-```
 
 Output:
 
-``` text
 Element: 10
-```
+Slicing
 
-------------------------------------------------------------------------
+Select:
 
-## Slicing
-
-Choose:
-
-``` text
 Enter your choice: 3
-```
 
-Example:
+Enter:
 
-``` text
-Start Index: 1
-End Index: 4
-```
+Enter start index: 1
+Enter end index: 4
 
 Output:
 
-``` text
+Sliced Array:
 [20 30 40]
-```
+Mathematical Operations
 
-------------------------------------------------------------------------
+Select:
 
-# 🧠 OOP Implementation
+Enter your choice: 6
 
-## Class
+Enter the second array values.
 
-The project uses a class called:
+The program performs:
 
-``` python
+Addition
+Subtraction
+Multiplication
+Division
+Dot Product
+
+Select:
+
+Enter your choice: 7
+
+Enter values for two arrays.
+
+The program calculates the:
+
+Dot Product
+Matrix Multiplication
+
+Select:
+
+Enter your choice: 8
+
+Enter rows, columns, and values for both matrices.
+
+The program performs:
+
+Matrix Multiplication
+🧠 OOP Implementation
+Class
+
+The project uses the following class:
+
 DataAnalytics
-```
-
-------------------------------------------------------------------------
-
-## Constructor
+Constructor
 
 The constructor initializes the array:
 
-``` python
 def __init__(self):
     self.__array = None
-```
-
-------------------------------------------------------------------------
-
-## Encapsulation
+Encapsulation
 
 The array is stored as a private variable:
 
-``` python
 self.__array
-```
+Object Creation
 
-------------------------------------------------------------------------
+An object of the class is created as:
 
-## Class Method
+analytics = DataAnalytics()
+Class Method
 
-The project includes a class method to display the project name.
+The project includes a class method:
 
-------------------------------------------------------------------------
+@classmethod
+def project_name(cls):
+    print("NumPy Analyzer")
+Static Method
 
-## Static Method
+The project includes a static method:
 
-The project includes a static method to display a welcome message.
+@staticmethod
+def developer_message():
+    print("Welcome to NumPy Analyzer")
+🎯 Learning Outcomes
 
-------------------------------------------------------------------------
+This project helps in practicing:
 
-# 🎯 Learning Outcomes
-
-By completing this project, the following concepts are practiced:
-
--   NumPy Arrays
--   1D, 2D and 3D Arrays
--   Array Indexing
--   Array Slicing
--   Mathematical Operations
--   Searching and Sorting
--   Filtering
--   Aggregation
--   Statistical Analysis
--   Object-Oriented Programming
--   Python Classes and Methods
--   Menu-Driven Programs
-
-------------------------------------------------------------------------
-
-# 📋 Requirements
+NumPy Arrays
+1D, 2D and 3D Arrays
+Array Indexing
+Array Slicing
+Array Concatenation
+Array Splitting
+Mathematical Operations
+Dot Product
+Matrix Multiplication
+Searching
+Sorting
+Filtering
+Aggregating Functions
+Statistical Functions
+Correlation Coefficient
+Object-Oriented Programming
+Python Classes and Methods
+Menu-Driven Programs
+📋 Requirements
 
 Before running the project, make sure you have:
 
--   Python installed
--   NumPy installed
+Python installed
+NumPy installed
 
 Install NumPy using:
 
-``` bash
 pip install numpy
-```
+👩‍💻 Author
 
-------------------------------------------------------------------------
+Krisha Kukadiya
 
-# 👨‍💻 Author
+Project Name: NumPy Analyzer
 
-**Student Project**
+🙏 Thank You
 
-**Project Name:** NumPy Analyzer
+Thank you for taking the time to explore my NumPy Analyzer project.
 
-------------------------------------------------------------------------
+This project is created to practice NumPy and Object-Oriented Programming (OOP) concepts in Python.
 
-⭐ *NumPy Analyzer is a simple student-level project created to practice
-NumPy and Object-Oriented Programming concepts in Python.*
+✨ Keep Learning, Keep Growing, and Keep Coding! ✨
+
+<p align="center">
+⭐ Thank You for Visiting My Project ⭐
+
+Happy Coding! 💻🐍
